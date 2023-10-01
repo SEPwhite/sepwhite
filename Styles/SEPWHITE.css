@@ -4,9 +4,7 @@
 }
 
 body{
-	/*background-image: linear-gradient(180deg, rgb(252, 174, 183), rgb(252, 201, 198), rgb(255, 213, 213), rgb(252, 174, 183));*/
-	background-image: linear-gradient(180deg, rgb(238,127,157), rgb(254, 161, 186), rgb(247, 176, 170), rgb(247, 138, 167));
-	background-repeat: no-repeat;
+	background-image: linear-gradient(180deg, rgb(238,127,157), rgb(254, 179, 199), rgb(252, 175, 168), rgb(238,127,157));
 	width: 100%;
 	height: 100%;
 	margin: 0;
@@ -114,7 +112,7 @@ body{
 	box-shadow: 0 5px 9px 0 rgba(0,0,0,0.2);
   	transition: 0.3s;
 	width: 15%;
-	background-color: rgb(238,127,157);
+	background-color: rgb(226, 110, 141);
 }
 .row{
 	text-align: center;
