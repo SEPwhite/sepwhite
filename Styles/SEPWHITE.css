@@ -3,7 +3,7 @@
 	font-style: normal;
 }
 
-body{
+html, body{
 	background-image: linear-gradient(180deg, rgb(238,127,157), rgb(254, 179, 199), rgb(252, 175, 168), rgb(238,127,157));
 	width: 100%;
 	height: 100%;
