@@ -31,13 +31,11 @@ body{
 .navbar a {
 	float: left;
 	display: block;
-	/*font-size: 22px;*/
-	font-size: 50%;
+	font-size: 22px;
 	font-style: normal;
 	color: black;
 	text-align: center;
-	/*padding: 14px 16px;*/
-	padding: 0.5% 1%;
+	padding: 14px 16px;
 	text-decoration: none;
 }
 
@@ -51,12 +49,14 @@ body{
 	color: white;
 }
 
+/* >>>>> INDEX IMAGE OVERLAY CSS <<<<< */
+
 .homePageImg{
 	position: relative;
 	display: block;
 }
 #logo{
-	width: 19%;
+	width: 20%;
 	/*height: 50px;*/
 	opacity: 1;
 	mix-blend-mode: multiply; /*to blend images*/
@@ -64,8 +64,7 @@ body{
 .headImg{
 	display: block;
 	width: 100%;
-	/*height: 350px;*/
-	height: 10%;
+	height: 300px;
 	opacity: 1;
 	transition: .5s ease;
 	/*backface-visibility: hidden;*/
@@ -77,85 +76,40 @@ body{
 	bottom: 0;
 	left: 0;
 	right: 0;
-	width: 38%;
+	width: 35%;
 	opacity: 2;
 	background-color: #f7dfeb;
 	color: black;
-	font-size: 90%;
+	font-size: 100px;
 	text-align: center;
 	/*padding-left: 50px;
 	padding-right: 50px;
 	padding-top: 50px;
 	padding-bottom: 50px;*/
+	padding-top: 50px;
 	margin-left: 3%;
-	padding-top: 8%;
 }
 .img{
 	width: 100%;
-	/*height: 250px;*/
+	height: 250px;
 }
 .text{
 	color: black;
-	font-size: 50%;
-	/*padding: 2px 16px;*/
+	padding: 2px 16px;
 	text-align: center;
 }
+
 .iContainer{
 	display: inline-block;
-	/*padding-bottom: 100px;*/
-	padding-bottom: 14%;
+	padding-bottom: 100px;
 	box-shadow: 0 5px 9px 0 rgba(0,0,0,0.2);
   	transition: 0.3s;
-	width: 25%;
+	width: 15%;
 	background-color: rgb(233, 148, 163);
 	color: black;
 }
 .row{
 	text-align: center;
-}
-
-/* DOG FOOD GALLERY OVERLAY */
-
-.gallery{
-	position: relative;
-}
-
-.dogFoodImg{
-	display: block;
-	width: 100%;
-	opacity: 1;
-	transition: .5s ease;
-	backface-visibility: hidden;
-}
-
-.descOverlay{
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	width: 100%;
-	height: 252px;
-	opacity: 0;
-	transition: .5s ease;
-	background-color: white;
-}
-
-.overlayContainer:hover .descOverlay{
-	opacity: 1;
-}
-
-.textOverlay{
-	color: black;
-	width: 100%;
-	font-size: 12px;
-	font-style: normal;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	margin-left: -23px;
-	transform: translate(-50%, -50%);
-	-ms-transform: translate(-50%, -50%);
 }
 
 /* >>>>> gallery.html CSS <<<<< */
