@@ -18,7 +18,7 @@ body{
 	color: black;
 	text-align: center; 
 	margin:0;
-	font-size:15vw;
+	font-size:15px;
 }
 
 /* >>>>> NAVIGATION BAR <<<<<*/
@@ -31,11 +31,11 @@ body{
 .navbar a {
 	float: left;
 	display: block;
-	font-size: 11vw;
+	font-size: 22px;
 	font-style: normal;
 	color: black;
 	text-align: center;
-	padding: 20% 32%;
+	padding: 14px 16px;
 	text-decoration: none;
 }
 
@@ -44,12 +44,11 @@ body{
 	color: white;
 }
 
+
 .navbar a:hover{
 	background-color: black;
 	color: white;
 }
-
-
 
 /* >>>>> INDEX IMAGE OVERLAY CSS <<<<< */
 
@@ -59,14 +58,14 @@ body{
 }
 #logo{
 	width: 20%;
-	/*height: 50px;*/
+	height: 50px;
 	opacity: 1;
 	mix-blend-mode: multiply; /*to blend images*/
 }
 .headImg{
 	display: block;
 	width: 100%;
-	/*height: 350px;*/
+	height: 350px;
 	opacity: 1;
 	transition: .5s ease;
 	/*backface-visibility: hidden;*/
@@ -82,7 +81,7 @@ body{
 	opacity: 2;
 	background-color: #f7dfeb;
 	color: black;
-	font-size: 100%;
+	font-size: 100px;
 	text-align: center;
 	padding-left: 50px;
 	padding-right: 50px;
@@ -92,11 +91,11 @@ body{
 }
 .img{
 	width: 100%;
-	/*height: 250px;*/
+	height: 250px;
 }
 .text{
 	color: black;
-	padding: 20% 32%;
+	padding: 2px 16px;
 	text-align: center;
 }
 
@@ -106,7 +105,7 @@ body{
 }*/
 .iContainer{
 	display: inline-block;
-	padding-bottom: 100%;
+	padding-bottom: 100px;
 	box-shadow: 0 5px 9px 0 rgba(0,0,0,0.2);
   	transition: 0.3s;
 	width: 15%;
@@ -118,7 +117,7 @@ body{
 }
 
 /* >>>>> dogFood.html CSS <<<<< */
-
+/*
 #dogFood{
 	overflow: auto;
 	background: linear-gradient(to bottom right, #E3F0FF, #FAFCFF);
@@ -126,9 +125,9 @@ body{
 
 .dogFoodTitle{
 	text-align: center;
-	font-size: 35vw;
-	margin-top: 50vw;
-	margin-bottom: 10vw;
+	font-size: 35px;
+	margin-top: 50px;
+	margin-bottom: 10px;
 	color: #04b5a0;
 	font-style: normal;
 	font-weight: bold;
@@ -136,13 +135,13 @@ body{
 
 .dogFoodGallery img{
 	width: 100%;
-	/*height: 250vw;*/
+	height: 250px;
 }
 
 .desc{
 	text-align: center;
 	font-style: normal;
-	padding-top: 5vw;
+	padding-top: 5px;
 }
 
 .price{
@@ -152,7 +151,7 @@ body{
 
 .gallery{
 	display: inline-table;
-	padding: 2vw;
+	padding: 2px;
 	border: 1px solid black;
 	border-radius: 0 0 50px 50px;
 	width: 15%;
@@ -162,7 +161,7 @@ body{
 	box-shadow: 10px 7px 14px 0 rgba(0, 0, 0, 0.5);
 }
 
-/* DOG FOOD GALLERY OVERLAY */
+/* DOG FOOD GALLERY OVERLAY
 
 .gallery{
 	position: relative;
@@ -183,7 +182,7 @@ body{
 	left: 0;
 	right: 0;
 	width: 100%;
-	/*height: 252px;*/
+	height: 252px;
 	opacity: 0;
 	transition: .5s ease;
 	background-color: white;
@@ -196,15 +195,15 @@ body{
 .textOverlay{
 	color: black;
 	width: 100%;
-	font-size: 12vw;
+	font-size: 12px;
 	font-style: normal;
 	position: absolute;
 	top: 50%;
 	left: 50%;
-	margin-left: -23vw;
+	margin-left: -23px;
 	transform: translate(-50%, -50%);
 	-ms-transform: translate(-50%, -50%);
-}
+}*/
 
 /* >>>>> gallery.html CSS <<<<< */
 
@@ -217,7 +216,7 @@ body{
 
 #galleryContent h1 {
 	color: #02a88f;
-	font-size: 50vw;
+	font-size: 50px;
 }
 
 .galContainer{
@@ -233,7 +232,7 @@ body{
     display: inline-block;
     width: 100%;
     border: 2px solid #02a88f;
-    padding: 5vw;
+    padding: 5px;
     box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
     border-radius: 5px;
     transition: all .25s ease-in-out;
@@ -255,7 +254,7 @@ body{
 }
 
 .galContainer div p{
-    margin: 5vw 0;
+    margin: 5px 0;
     padding: 0;
     text-align: center;
     font-style: italic;
